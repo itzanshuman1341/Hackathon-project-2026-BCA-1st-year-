@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perfume Website - Products</title>
+  <title>Fragrances - GARIB NAWAZ PERFUMERS</title>
+  <link rel="icon" href="images/logo.png" type="image/png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <header>
-    <h1><i class="fa-solid fa-spray-can-sparkles"></i> Perfume Website</h1>
+    <a class="site-brand" href="index.html">
+      <img src="images/logo.png" alt="">
+      <span><strong>GARIB NAWAZ PERFUMERS</strong><small>where aroma meets fragnance</small></span>
+    </a>
     <nav>
       <a href="index.html">Home</a>
       <a href="products.html">Products</a>
@@ -20,192 +24,84 @@
   </header>
 
   <div class="filter-area">
-    <h2>Our Perfumes</h2>
+    <h2>Our Fragrances</h2>
     <div class="divider"></div>
 
-    <input type="radio" name="filter" id="all" checked>
-    <input type="radio" name="filter" id="men">
-    <input type="radio" name="filter" id="women">
-    <input type="radio" name="filter" id="unisex">
-
-    <div class="buttons">
-      <label for="all">All</label>
-      <label for="men">Men</label>
-      <label for="women">Women</label>
-      <label for="unisex">Unisex</label>
-    </div>
-
     <div class="products">
-
-      <div class="card men">
-        <img class="product-image" src="images/img1.jpg" alt="Ocean Blue perfume">
-        <h3>Ocean Blue</h3>
-        <p class="type">Men - Fresh</p>
-        <p class="price">Rs. 1299</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
+      <div class="card">
+        <img class="product-image" src="images/Red-Velvat.jpeg" alt="Red Velvet fragrance by Garib Nawaz Perfumers" loading="lazy">
+        <div class="product-info">
+          <h3>Red Velvet</h3>
+          <ul class="product-details">
+            <li>Luxury, rich fragrance</li>
+            <li>Long-lasting, rich and elegant scent</li>
+            <li>Skin-friendly, alcohol-free</li>
+          </ul>
+          <p class="product-price"><span>12 ml</span> ₹400</p>
+          <a class="product-order" href="https://walink.me/55cw0o"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
+        </div>
       </div>
-
-      <div class="card men">
-        <img class="product-image" src="images/img2.jpg" alt="Dark Wood perfume">
-        <h3>Dark Wood</h3>
-        <p class="type">Men - Woody</p>
-        <p class="price">Rs. 1599</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
+      <div class="card">
+        <img class="product-image" src="images/Shanaya.jpeg" alt="Shanaya fragrance by Garib Nawaz Perfumers" loading="lazy">
+        <div class="product-info">
+          <h3>Shanaya</h3>
+          <ul class="product-details">
+            <li>Warm, elegant and luxurious fragrance</li>
+            <li>Rich traditional blend</li>
+            <li>Skin-friendly, alcohol-free</li>
+          </ul>
+          <p class="product-price"><span>12 ml</span> ₹200 <span class="price-divider">·</span> <span>6 ml</span> ₹100</p>
+          <a class="product-order" href="https://walink.me/lyuyjn"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
+        </div>
       </div>
-
-      <div class="card women">
-        <img class="product-image" src="images/img3.webp" alt="Rose Bloom perfume">
-        <h3>Rose Bloom</h3>
-        <p class="type">Women - Floral</p>
-        <p class="price">Rs. 1499</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
+      <div class="card">
+        <img class="product-image" src="images/Sultan.jpeg" alt="Sultan fragrance by Garib Nawaz Perfumers" loading="lazy">
+        <div class="product-info">
+          <h3>Sultan</h3>
+          <ul class="product-details">
+            <li>Soft, elegant fragrance</li>
+            <li>Long-lasting, light scent</li>
+            <li>Skin-friendly, alcohol-free</li>
+          </ul>
+          <p class="product-price"><span>12 ml</span> ₹400 <span class="price-divider">·</span> <span>6 ml</span> ₹200</p>
+          <a class="product-order" href="https://walink.me/rde93c"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
+        </div>
       </div>
-
-      <div class="card women">
-        <img class="product-image" src="images/img4.webp" alt="Vanilla Dream perfume">
-        <h3>Vanilla Dream</h3>
-        <p class="type">Women - Sweet</p>
-        <p class="price">Rs. 1399</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
+      <div class="card">
+        <img class="product-image" src="images/Musk-thara.jpeg" alt="Musk Thahara fragrance by Garib Nawaz Perfumers" loading="lazy">
+        <div class="product-info">
+          <h3>Musk Thahara</h3>
+          <ul class="product-details">
+            <li>Pure, milky and creamy fragrance</li>
+            <li>Soft, calming and long-lasting</li>
+            <li>Skin-friendly, alcohol-free</li>
+          </ul>
+          <p class="product-price"><span>12 ml</span> ₹300 <span class="price-divider">·</span> <span>6 ml</span> ₹150</p>
+          <a class="product-order" href="https://walink.me/v9rrm4"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
+        </div>
       </div>
-
-      <div class="card unisex">
-        <img class="product-image" src="images/img5.jfif" alt="Amber Night perfume">
-        <h3>Amber Night</h3>
-        <p class="type">Unisex - Warm</p>
-        <p class="price">Rs. 1799</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
+      <div class="card">
+        <img class="product-image" src="images/Green-Ajmer.jpeg" alt="Green Ajmer fragrance by Garib Nawaz Perfumers" loading="lazy">
+        <div class="product-info">
+          <h3>Green Ajmer</h3>
+          <ul class="product-details">
+            <li>French-base fragrance</li>
+            <li>Premium, long-lasting scent</li>
+            <li>Ajmer's signature fragrance</li>
+          </ul>
+          <p class="product-price"><span>12 ml</span> ₹600 <span class="price-divider">·</span> <span>6 ml</span> ₹300</p>
+          <a class="product-order" href="https://walink.me/npgtm9"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
+        </div>
       </div>
-
-      <div class="card unisex">
-        <img class="product-image" src="images/img6.jfif" alt="Citrus Splash perfume">
-        <h3>Citrus Splash</h3>
-        <p class="type">Unisex - Citrus</p>
-        <p class="price">Rs. 999</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card men">
-        <img class="product-image" src="images/img2.jpg" alt="Midnight Oud perfume">
-        <h3>Midnight Oud</h3>
-        <p class="type">Men - Oriental</p>
-        <p class="price">Rs. 1899</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card women">
-        <img class="product-image" src="images/img3.webp" alt="Blush Petals perfume">
-        <h3>Blush Petals</h3>
-        <p class="type">Women - Floral</p>
-        <p class="price">Rs. 1599</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card unisex">
-        <img class="product-image" src="images/img5.jfif" alt="Velvet Musk perfume">
-        <h3>Velvet Musk</h3>
-        <p class="type">Unisex - Musk</p>
-        <p class="price">Rs. 1699</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card men">
-        <img class="product-image" src="images/img1.jpg" alt="Cedar Trail perfume">
-        <h3>Cedar Trail</h3>
-        <p class="type">Men - Woody</p>
-        <p class="price">Rs. 1499</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card women">
-        <img class="product-image" src="images/img4.webp" alt="Vanilla Veil perfume">
-        <h3>Vanilla Veil</h3>
-        <p class="type">Women - Sweet</p>
-        <p class="price">Rs. 1299</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card unisex">
-        <img class="product-image" src="images/img6.jfif" alt="Citrus Grove perfume">
-        <h3>Citrus Grove</h3>
-        <p class="type">Unisex - Citrus</p>
-        <p class="price">Rs. 1199</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card men">
-        <img class="product-image" src="images/img2.jpg" alt="Royal Leather perfume">
-        <h3>Royal Leather</h3>
-        <p class="type">Men - Leather</p>
-        <p class="price">Rs. 1999</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card women">
-        <img class="product-image" src="images/img3.webp" alt="Jasmine Mist perfume">
-        <h3>Jasmine Mist</h3>
-        <p class="type">Women - Floral</p>
-        <p class="price">Rs. 1399</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card unisex">
-        <img class="product-image" src="images/img5.jfif" alt="Golden Saffron perfume">
-        <h3>Golden Saffron</h3>
-        <p class="type">Unisex - Spicy</p>
-        <p class="price">Rs. 1799</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card men">
-        <img class="product-image" src="images/img1.jpg" alt="Fresh Tide perfume">
-        <h3>Fresh Tide</h3>
-        <p class="type">Men - Aquatic</p>
-        <p class="price">Rs. 1199</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card women">
-        <img class="product-image" src="images/img4.webp" alt="Sugar Petal perfume">
-        <h3>Sugar Petal</h3>
-        <p class="type">Women - Sweet</p>
-        <p class="price">Rs. 1499</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card unisex">
-        <img class="product-image" src="images/img6.jfif" alt="Sandalwood Sky perfume">
-        <h3>Sandalwood Sky</h3>
-        <p class="type">Unisex - Woody</p>
-        <p class="price">Rs. 1699</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card women">
-        <img class="product-image" src="images/img3.webp" alt="Rosewood Romance perfume">
-        <h3>Rosewood Romance</h3>
-        <p class="type">Women - Rose</p>
-        <p class="price">Rs. 1599</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
-      <div class="card unisex">
-        <img class="product-image" src="images/img5.jfif" alt="Amber Coast perfume">
-        <h3>Amber Coast</h3>
-        <p class="type">Unisex - Warm</p>
-        <p class="price">Rs. 1899</p>
-        <button><i class="fa-solid fa-cart-shopping"></i> Buy</button>
-      </div>
-
     </div>
   </div>
 
   <footer>
-    <p>&copy; 2026 Perfume Website. All rights reserved.</p>
-    <p>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-twitter"></i>
+    <p>Shop No. 5, Outside Delhi Gate, Ajmer</p>
+    <p>Open 10 AM–11 PM | <a href="tel:+919887705691">9887705691</a> · <a href="tel:+919413994103">9413994103</a></p>
+    <p>&copy; 2026 GARIB NAWAZ PERFUMERS. All rights reserved.</p>
+    <p class="social-links">
+      <a href="https://www.instagram.com/garib_nawaz_perfumers?utm_source=ig_web_button_share_sheet&amp;vrfl=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer" aria-label="Visit Garib Nawaz Perfumers on Instagram"><i class="fa-brands fa-instagram"></i></a>
     </p>
   </footer>
 
