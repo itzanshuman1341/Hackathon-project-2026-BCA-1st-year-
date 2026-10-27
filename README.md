@@ -5,7 +5,7 @@ Welcome to the comprehensive documentation for the Garib Nawaz Website, a digita
 
 This project is dedicated to creating an accessible, informative, and culturally respectful online hub centered around the life, teachings, and legacy of Khwaja Moinuddin Chishti (Garib Nawaz) and the historical Ajmer Sharif Dargah.
 
-📌 Project Overview & Purpose
+📌 Project Overview & Purpose.
 
 The goal of this initiative is to bridge heritage with modern web development. As first-semester computer application students, our primary objective was to apply core web technologies to address a real-world need: providing structured, easily accessible information for visitors, devotees, and researchers interested in Ajmer Sharif.
 
